@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+
+    <section>
+        <fieldset>
+            <legend>Auto</legend>
+
+            <form name="formulario" action="php/formulario.php" method="post">
+                <div class="campo">Matricula: <input type="text" name="matricula" id="matricula" size="6" minlength='6' maxlength="6" placeholder="AA1111 o AAAA11"></div>
+                <div class="campo">Serial del motor: <input type="text" name="motor" id="motor" size="40" minlength='6' maxlength="40" placeholder="N° del motor"></div>
+                <div class="campo">Serial de la carrocería: <input type="text" name="chasis" id="chasis" size="40" minlength='6' maxlength="40" placeholder="N° de Chasis"></div>
+                <div class="campo">Marca: <input type="text" name="marca" id="marca" size="20" minlength='3' maxlength="20" placeholder="Marca"></div>
+                <div class="campo">Modelo: <input type="text" name="modelo" id="modelo" size="20" minlength='3' maxlength="20" placeholder="Modelo"></div>
+                <div class="campo">Año: <input type="number" name="ano" id="ano" size="4" minlength='4' maxlength="4" placeholder="1991"></div>
+                <div class="campo">Color: <input type="text" name="color" id="color" size="20" minlength='3' maxlength="20" placeholder="Rojo"></div>
+                <div class="campo">Precio: <input type="number" name="precio" id="precio" size="15" minlength='6' maxlength="15" placeholder="$1.200.000"></div>
+                <br></br>
+                <button type="submit" name="ingresar" value="ingresar">Enviar</button>
+            </form>
+        </fieldset>
+    </section>
+
+    <script src="./js/formulario.js"></script>
+
+</body>
+
+</html>
